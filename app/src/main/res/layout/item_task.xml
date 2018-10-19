@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorCardTask"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:contentPadding="50dp"
+        app:contentPaddingBottom="8dp"
+        app:contentPaddingLeft="8dp"
+        app:contentPaddingRight="8dp"
+        app:contentPaddingTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvItemNameTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="3"
+                android:paddingLeft="2dp"
+                android:text="TextView"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingTop="3dp">
+
+                    <TextView
+                        android:id="@+id/tvItemAllTimeTask"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="2dp"
+                        android:text="@string/tv_item_now_time"
+                        android:textColor="@android:color/black"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:id="@+id/tvItemNowTimeTask"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:paddingLeft="2dp"
+                        android:text="@string/tv_item_all_time"
+                        android:textColor="@android:color/black"
+                        android:visibility="visible"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingTop="3dp">
+
+                    <Chronometer
+                        android:id="@+id/chronometerNow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <Chronometer
+                        android:id="@+id/chronometerAllTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="bottom|right"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnPlayTask"
+                        android:layout_width="58dp"
+                        android:layout_height="58dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@mipmap/ic_btn_play"/>
+
+                    <Button
+                        android:id="@+id/btnStopTask"
+                        android:layout_width="58dp"
+                        android:layout_height="58dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="@mipmap/btn_stop"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

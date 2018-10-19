@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "479163456968",
+    "firebase_url": "https://timetaskscontroll-963f0.firebaseio.com",
+    "project_id": "timetaskscontroll-963f0",
+    "storage_bucket": "timetaskscontroll-963f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479163456968:android:d122f22746f09556",
+        "android_client_info": {
+          "package_name": "com.stanislav.admin.timetaskscontroll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479163456968-ksk09g6cboj6q48kd1qfp6944nggvhtc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stanislav.admin.timetaskscontroll",
+            "certificate_hash": "b897d5de7878c014a6ad6a318e5cbbd85e099e28"
+          }
+        },
+        {
+          "client_id": "479163456968-q0198isk8uu3lbubbff6mmm2v0thm3gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyD9ZZOmkZfyOuLnPohr35xxdK8v0n_9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479163456968-q0198isk8uu3lbubbff6mmm2v0thm3gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorCardTask">#6571af9c</color>
+    <color name="colorPrimary_black">#000000</color>
+    <color name="colorPrimaryDark_grey">#2b2e2e</color>
+    <color name="colorAccent_my">#d00b8662</color>
+
+    <color name="colorLin">#813fb190</color>
+    <color name="colorForTable">#6a43b695</color>
+    <color name="backList">#ffffff</color>
+</resources>

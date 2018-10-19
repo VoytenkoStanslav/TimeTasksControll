@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.stanislav.admin.timetaskscontroll.TasksActivity">
+    <item
+        android:id="@+id/menu_remove"
+        android:icon="@mipmap/ic_del"
+        android:title="Remove"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_modify"
+        android:icon="@mipmap/edit"
+        android:title="modify"
+        app:showAsAction="always"
+        />
+</menu>

@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Time Control</string>
+    <string name="action_settings">Добавить</string>
+    <string name="action_sign_out">Выйти</string>
+    <string name="auth_name">Укажите email</string>
+    <string name="auth_password">Укажите пароль</string>
+    <string name="auth_repit_password">Повторите пароль</string>
+    <string name="btn_registration">Регистрация</string>
+    <string name="password_true">Пароли совпадают</string>
+    <string name="password_false">Пароли не совпадают</string>
+    <string name="registrationInApp">Регистрация</string>
+    <string name="authenticationInApp">Вход</string>
+    <string name="authenticationWithGoogle">Вход с помощью Google</string>
+    <string name="name_task">Название задачи: </string>
+    <string name="full_name_task">Подробное описание задачи: </string>
+    <string name="sum_task">Цена задачи: </string>
+    <string name="salary_in_hour">Доход в час: </string>
+    <string name="any_text">Дополнительные заметки: </string>
+    <string name="mini_task">Подзадачи:</string>
+    <string name="count_task">Сумма</string>
+    <string name="time_plan">Планируемое время: </string>
+    <string name="count_time">Количество</string>
+    <string name="btn_start_task">Запуск</string>
+    <string name="btn_stop_task">Стоп</string>
+    <string name="get_payment_task">Расчитать доход</string>
+    <string name="tv_for_income">Планируемый доход: </string>
+    <string name="tv_for_real_income">Текущий доход: </string>
+    <string name="payment_income">0 час / 0 день</string>
+    <string name="all_time_task">Общее время: </string>
+    <string name="last_play">Последний запуск: </string>
+    <string name="day">день</string>
+    <string name="day_2">(Дни)</string>
+    <string name="hour">час</string>
+    <string name="hour_2">(Часы)</string>
+    <string name="minute">минута</string>
+    <string name="minute_2">(Минуты)</string>
+    <string name="not_text">Не указано</string>
+    <string name="not_edit_sum_is_chek">Укажите сумму</string>
+    <string name="not_edit_time_is_chek">Укажите время</string>
+    <string name="not_edit_name_task">Укажите название задачи</string>
+    <string name="tv_item_now_time">Текущее время: </string>
+    <string name="tv_item_all_time">Общее время: </string>
+    <string name="tv_item_created_task">Создано: </string>
+    <string name="tf_day">д.</string>
+    <string name="tf_hour">ч.</string>
+    <string name="tf_minute">м.</string>
+    <string name="tf_second">с.</string>
+    <string name="date_created">Дата создания задачи:</string>
+    <string name="dialog_text">Удалить задачу</string>
+    <string name="dialog_yes">Удалить</string>
+    <string name="dialog_no">Отмена</string>
+    <string name="dialog_title">Удаление задачи</string>
+    <string name="forgot__password">Забыли пароль?</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="email_send">Ссылка для смены пороля отправлена на почту</string>
+    <string name="email_did_not_send">Не удалсь отправить письмо на указаную почту. Проверьте введенные данные.</string>
+    <string name="password_length">Длина пароля должна быть не менее 6 символов</string>
+    <string name="not_format_email_exeption">Не верный формат почты</string>
+    <string name="pause">Пауза</string>
+    <string name="repite">Прод</string>
+    <string name="password_not_equels">Пароли не совпадают.</string>
+    <string name="password_empty">Введите пароль.</string>
+    <string name="password_repit_empty">Введите повторный пароль.</string>
+    <string name="email_empty">Введите email.</string>
+    <string name="out_title">Выход</string>
+    <string name="out_app_from_auth">Выйти из приложения?</string>
+    <string name="out_app_from_app">Выйти из приложения? Не остановленные задачи могут потерять данные.</string>
+    <string name="out">Выйти</string>
+    <string name="cancel">Отмена</string>
+    <string name="sum_time_not_null">Сумма и время не должны быть равны нулю.</string>
+    <string name="out_app_from_account">Выйти из учетной записи? Не остановленные задачи могут потерять данные.</string>
+    <string name="label_auth">Авторизация</string>
+    <string name="label_registr">Регистрация</string>
+    <string name="label_forgot">Восстановление</string>
+    <string name="label_modify">Изменение</string>
+    <string name="label_add">Добавление</string>
+    <string name="auth_exeption">Проверьте введенные данные</string>
+
+    <string-array name="category_time">
+        <item>Дни</item>
+        <item>Часы</item>
+        <item>Минуты</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
